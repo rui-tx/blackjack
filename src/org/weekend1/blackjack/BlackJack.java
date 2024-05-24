@@ -106,6 +106,8 @@ public class BlackJack {
         // it happens when, for example, p1 has higher hand value and refuses to play the game, ending in a draw
         // maybe XOR will help here?
 
+        // the problem is around here
+        // and I don't want to redo it...
         if (this.p1.wantToPlay()) {
             this.p1.giveCardToPlayerHandDeck(this.pickCardFromDeck());
         } else {
