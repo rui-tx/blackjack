@@ -1,0 +1,59 @@
+/**
+ * package org.weekend1.blackjack;
+ *
+ * public class Main {
+ *     public static void main(String[] args) {
+ *         BlackJack blackjack = new BlackJack(new Player("Dealer"), new Player("Player"));
+ *
+ *         int p1Wins = 0;
+ *         int p2Wins = 0;
+ *         int totalGames = 5;
+ *         for (int i = 0; i < totalGames; i++) {
+ *
+ *
+ *             while (!blackjack.hasEnded) {
+ *                 int checkWinner = blackjack.play();
+ *             }
+ *
+ *
+ *             int checkWinner = blackjack.play();
+ *
+ *
+ *
+ *             switch (checkWinner) {
+ *                 case 1:
+ *                     System.out.println("Winner is: " + blackjack.getPlayer1Name() + "\n");
+ *                     p1Wins++;
+ *                     break;
+ *                 case 2:
+ *                     System.out.println("Winner is: " + blackjack.getPlayer2Name() + "\n");
+ *                     p2Wins++;
+ *                     break;
+ *                 default:
+ *                     System.out.println("It's a draw!\n");
+ *             }
+ *         }
+ *
+ *         System.out.println(">>> Results after " + totalGames + " rounds <<<");
+ *         System.out.println(blackjack.getPlayer1Name() + " won " + p1Wins + " rounds...");
+ *         System.out.println(blackjack.getPlayer2Name() + " won " + p2Wins + " rounds...");
+ *
+ *         int winner = getWinner(p1Wins, p2Wins);
+ *         if (winner > 0) {
+ *             System.out.println("Winner is: " + blackjack.getPlayer1Name());
+ *             return;
+ *         }
+ *
+ *         if (winner < 0) {
+ *             System.out.println("Winner is: " + blackjack.getPlayer2Name());
+ *             return;
+ *         }
+ *
+ *         System.out.println("It's a draw!");
+ *     }
+ *
+ *     public static int getWinner(int p1, int p2) {
+ *         return p1 - p2;
+ *     }
+ * }
+ */
