@@ -8,9 +8,6 @@ public class Player {
     private Card[] playerHandDeck = new Card[0];
     private int currentHandValue = 0;
 
-    // round history
-    // private Card[][] playerHandDeckHistory new Card[0][0];
-
     // constructors
 
     public Player(String name) {
